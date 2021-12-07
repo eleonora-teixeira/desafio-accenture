@@ -1,0 +1,2232 @@
+[
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "#language: pt"
+      }
+    ],
+    "line": 4,
+    "elements": [
+      {
+        "line": 6,
+        "name": "Preencher formulário Insurant Data",
+        "description": "",
+        "id": "enter-insurant-data;preencher-formulário-insurant-data",
+        "type": "scenario",
+        "keyword": "Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 2694314700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "que acesso o site tricentis",
+            "match": {
+              "location": "EnterVehicleDataSteps.que_acesso_o_site_tricentis()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 144406600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "acesso a aba \"Enter Insurant Data\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Enter Insurant Data",
+                  "offset": 14
+                }
+              ],
+              "location": "EnterInsurantDataSteps.acesso_a_aba(String)"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 1403401000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "preencho o formulário de Insurant Data",
+            "match": {
+              "location": "EnterInsurantDataSteps.preencho_o_formulário_de_Insurant_Data()"
+            },
+            "keyword": "Então "
+          },
+          {
+            "result": {
+              "duration": 74638200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "clico em next para Product Data",
+            "match": {
+              "location": "EnterInsurantDataSteps.clico_em_next_para_Product_Data()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 4737800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "vejo que estou na aba \"Enter Product Data\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Enter Product Data",
+                  "offset": 23
+                }
+              ],
+              "location": "EnterVehicleDataSteps.vejo_que_estou_na_aba(String)"
+            },
+            "keyword": "Então "
+          }
+        ]
+      }
+    ],
+    "name": "Enter Insurant Data",
+    "description": "",
+    "id": "enter-insurant-data",
+    "keyword": "Funcionalidade",
+    "uri": "EnterInsurantData.feature"
+  },
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "#language: pt"
+      }
+    ],
+    "line": 4,
+    "elements": [
+      {
+        "line": 6,
+        "name": "Preencher formulário Product Data",
+        "description": "",
+        "id": "enter-product-data;preencher-formulário-product-data",
+        "type": "scenario",
+        "keyword": "Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 521370300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "que acesso o site tricentis",
+            "match": {
+              "location": "EnterVehicleDataSteps.que_acesso_o_site_tricentis()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 112611300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "acesso a aba \"Enter Product Data\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Enter Product Data",
+                  "offset": 14
+                }
+              ],
+              "location": "EnterInsurantDataSteps.acesso_a_aba(String)"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 663433000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "preencho o formulário de Product Data",
+            "match": {
+              "location": "EnterProductDataSteps.preencho_o_formulário_de_Product_Data()"
+            },
+            "keyword": "Então "
+          },
+          {
+            "result": {
+              "duration": 78157500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "clico em next para Select Price Option",
+            "match": {
+              "location": "EnterProductDataSteps.clico_em_next_para_Select_Price_Option()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 5441100,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "vejo que estou na aba \"Select Price Option\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Select Price Option",
+                  "offset": 23
+                }
+              ],
+              "location": "EnterVehicleDataSteps.vejo_que_estou_na_aba(String)"
+            },
+            "keyword": "Então "
+          }
+        ]
+      }
+    ],
+    "name": "Enter Product Data",
+    "description": "",
+    "id": "enter-product-data",
+    "keyword": "Funcionalidade",
+    "uri": "EnterProductData.feature"
+  },
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "#language: pt"
+      }
+    ],
+    "line": 3,
+    "elements": [
+      {
+        "line": 5,
+        "name": "Preencher formulário Vehicle Data",
+        "description": "",
+        "id": "enter-vehicle-data;preencher-formulário-vehicle-data",
+        "type": "scenario",
+        "keyword": "Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 521571300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "que acesso o site tricentis",
+            "match": {
+              "location": "EnterVehicleDataSteps.que_acesso_o_site_tricentis()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 6956700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "quando estou na aba \"Enter Vehicle Data\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Enter Vehicle Data",
+                  "offset": 21
+                }
+              ],
+              "location": "EnterVehicleDataSteps.quando_estou_na_aba(String)"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 838168800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "preencho o formulário de Vehicle Data",
+            "match": {
+              "location": "EnterVehicleDataSteps.preencho_o_formulário_de_Vehicle_Data()"
+            },
+            "keyword": "Então "
+          },
+          {
+            "result": {
+              "duration": 97171700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "clico em next para Insurant Data",
+            "match": {
+              "location": "EnterVehicleDataSteps.clico_em_next()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 8760200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "vejo que estou na aba \"Enter Insurant Data\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Enter Insurant Data",
+                  "offset": 23
+                }
+              ],
+              "location": "EnterVehicleDataSteps.vejo_que_estou_na_aba(String)"
+            },
+            "keyword": "Então "
+          }
+        ]
+      }
+    ],
+    "name": "Enter Vehicle Data",
+    "description": "",
+    "id": "enter-vehicle-data",
+    "keyword": "Funcionalidade",
+    "uri": "EnterVehicleData.feature"
+  },
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "#language: pt"
+      }
+    ],
+    "line": 4,
+    "elements": [
+      {
+        "line": 23,
+        "name": "Selecionar Price Option",
+        "description": "",
+        "id": "select-price-option;selecionar-price-option;;2",
+        "type": "scenario",
+        "keyword": "Esquema do Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 436958100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "que acesso o site tricentis",
+            "match": {
+              "location": "EnterVehicleDataSteps.que_acesso_o_site_tricentis()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 8838600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "quando estou na aba \"Enter Vehicle Data\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Enter Vehicle Data",
+                  "offset": 21
+                }
+              ],
+              "location": "EnterVehicleDataSteps.quando_estou_na_aba(String)"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 817297800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "preencho o formulário de Vehicle Data",
+            "match": {
+              "location": "EnterVehicleDataSteps.preencho_o_formulário_de_Vehicle_Data()"
+            },
+            "keyword": "Então "
+          },
+          {
+            "result": {
+              "duration": 89806800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "clico em next para Insurant Data",
+            "match": {
+              "location": "EnterVehicleDataSteps.clico_em_next()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 8461300,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "vejo que estou na aba \"Enter Insurant Data\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Enter Insurant Data",
+                  "offset": 23
+                }
+              ],
+              "location": "EnterVehicleDataSteps.vejo_que_estou_na_aba(String)"
+            },
+            "keyword": "Então "
+          },
+          {
+            "result": {
+              "duration": 1115091900,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "preencho o formulário de Insurant Data",
+            "match": {
+              "location": "EnterInsurantDataSteps.preencho_o_formulário_de_Insurant_Data()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 78398700,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "clico em next para Product Data",
+            "match": {
+              "location": "EnterInsurantDataSteps.clico_em_next_para_Product_Data()"
+            },
+            "keyword": "Então "
+          },
+          {
+            "result": {
+              "duration": 5986600,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "vejo que estou na aba \"Enter Product Data\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Enter Product Data",
+                  "offset": 23
+                }
+              ],
+              "location": "EnterVehicleDataSteps.vejo_que_estou_na_aba(String)"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 565298800,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "preencho o formulário de Product Data",
+            "match": {
+              "location": "EnterProductDataSteps.preencho_o_formulário_de_Product_Data()"
+            },
+            "keyword": "Então "
+          },
+          {
+            "result": {
+              "duration": 74709600,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "clico em next para Select Price Option",
+            "match": {
+              "location": "EnterProductDataSteps.clico_em_next_para_Select_Price_Option()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 6713200,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "vejo que estou na aba \"Select Price Option\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Select Price Option",
+                  "offset": 23
+                }
+              ],
+              "location": "EnterVehicleDataSteps.vejo_que_estou_na_aba(String)"
+            },
+            "keyword": "Então "
+          },
+          {
+            "result": {
+              "duration": 101257500,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Seleciono o Price option \"Silver\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Silver",
+                  "offset": 26
+                }
+              ],
+              "location": "SelectPriceOptionSteps.seleciono_o_Price_option(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 129419700,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "clico em next para Send Quote",
+            "match": {
+              "location": "SelectPriceOptionSteps.clico_em_next_para_Send_Quote()"
+            },
+            "keyword": "Então "
+          },
+          {
+            "result": {
+              "duration": 4726000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "vejo que estou na aba \"Send Quote\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Send Quote",
+                  "offset": 23
+                }
+              ],
+              "location": "EnterVehicleDataSteps.vejo_que_estou_na_aba(String)"
+            },
+            "keyword": "Quando "
+          }
+        ]
+      },
+      {
+        "line": 24,
+        "name": "Selecionar Price Option",
+        "description": "",
+        "id": "select-price-option;selecionar-price-option;;3",
+        "type": "scenario",
+        "keyword": "Esquema do Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 486937000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "que acesso o site tricentis",
+            "match": {
+              "location": "EnterVehicleDataSteps.que_acesso_o_site_tricentis()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 11371500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "quando estou na aba \"Enter Vehicle Data\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Enter Vehicle Data",
+                  "offset": 21
+                }
+              ],
+              "location": "EnterVehicleDataSteps.quando_estou_na_aba(String)"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 875870900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "preencho o formulário de Vehicle Data",
+            "match": {
+              "location": "EnterVehicleDataSteps.preencho_o_formulário_de_Vehicle_Data()"
+            },
+            "keyword": "Então "
+          },
+          {
+            "result": {
+              "duration": 97009600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "clico em next para Insurant Data",
+            "match": {
+              "location": "EnterVehicleDataSteps.clico_em_next()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 7672900,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "vejo que estou na aba \"Enter Insurant Data\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Enter Insurant Data",
+                  "offset": 23
+                }
+              ],
+              "location": "EnterVehicleDataSteps.vejo_que_estou_na_aba(String)"
+            },
+            "keyword": "Então "
+          },
+          {
+            "result": {
+              "duration": 1082510100,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "preencho o formulário de Insurant Data",
+            "match": {
+              "location": "EnterInsurantDataSteps.preencho_o_formulário_de_Insurant_Data()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 80397800,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "clico em next para Product Data",
+            "match": {
+              "location": "EnterInsurantDataSteps.clico_em_next_para_Product_Data()"
+            },
+            "keyword": "Então "
+          },
+          {
+            "result": {
+              "duration": 5548900,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "vejo que estou na aba \"Enter Product Data\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Enter Product Data",
+                  "offset": 23
+                }
+              ],
+              "location": "EnterVehicleDataSteps.vejo_que_estou_na_aba(String)"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 701432100,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "preencho o formulário de Product Data",
+            "match": {
+              "location": "EnterProductDataSteps.preencho_o_formulário_de_Product_Data()"
+            },
+            "keyword": "Então "
+          },
+          {
+            "result": {
+              "duration": 64777900,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "clico em next para Select Price Option",
+            "match": {
+              "location": "EnterProductDataSteps.clico_em_next_para_Select_Price_Option()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 3763300,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "vejo que estou na aba \"Select Price Option\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Select Price Option",
+                  "offset": 23
+                }
+              ],
+              "location": "EnterVehicleDataSteps.vejo_que_estou_na_aba(String)"
+            },
+            "keyword": "Então "
+          },
+          {
+            "result": {
+              "duration": 115616400,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Seleciono o Price option \"Gold\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Gold",
+                  "offset": 26
+                }
+              ],
+              "location": "SelectPriceOptionSteps.seleciono_o_Price_option(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 114948100,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "clico em next para Send Quote",
+            "match": {
+              "location": "SelectPriceOptionSteps.clico_em_next_para_Send_Quote()"
+            },
+            "keyword": "Então "
+          },
+          {
+            "result": {
+              "duration": 7676300,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "vejo que estou na aba \"Send Quote\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Send Quote",
+                  "offset": 23
+                }
+              ],
+              "location": "EnterVehicleDataSteps.vejo_que_estou_na_aba(String)"
+            },
+            "keyword": "Quando "
+          }
+        ]
+      },
+      {
+        "line": 25,
+        "name": "Selecionar Price Option",
+        "description": "",
+        "id": "select-price-option;selecionar-price-option;;4",
+        "type": "scenario",
+        "keyword": "Esquema do Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 500715100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "que acesso o site tricentis",
+            "match": {
+              "location": "EnterVehicleDataSteps.que_acesso_o_site_tricentis()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 4468900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "quando estou na aba \"Enter Vehicle Data\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Enter Vehicle Data",
+                  "offset": 21
+                }
+              ],
+              "location": "EnterVehicleDataSteps.quando_estou_na_aba(String)"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 978712200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "preencho o formulário de Vehicle Data",
+            "match": {
+              "location": "EnterVehicleDataSteps.preencho_o_formulário_de_Vehicle_Data()"
+            },
+            "keyword": "Então "
+          },
+          {
+            "result": {
+              "duration": 130479600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "clico em next para Insurant Data",
+            "match": {
+              "location": "EnterVehicleDataSteps.clico_em_next()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 10004900,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "vejo que estou na aba \"Enter Insurant Data\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Enter Insurant Data",
+                  "offset": 23
+                }
+              ],
+              "location": "EnterVehicleDataSteps.vejo_que_estou_na_aba(String)"
+            },
+            "keyword": "Então "
+          },
+          {
+            "result": {
+              "duration": 1148235200,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "preencho o formulário de Insurant Data",
+            "match": {
+              "location": "EnterInsurantDataSteps.preencho_o_formulário_de_Insurant_Data()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 82187100,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "clico em next para Product Data",
+            "match": {
+              "location": "EnterInsurantDataSteps.clico_em_next_para_Product_Data()"
+            },
+            "keyword": "Então "
+          },
+          {
+            "result": {
+              "duration": 7624800,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "vejo que estou na aba \"Enter Product Data\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Enter Product Data",
+                  "offset": 23
+                }
+              ],
+              "location": "EnterVehicleDataSteps.vejo_que_estou_na_aba(String)"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 584182200,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "preencho o formulário de Product Data",
+            "match": {
+              "location": "EnterProductDataSteps.preencho_o_formulário_de_Product_Data()"
+            },
+            "keyword": "Então "
+          },
+          {
+            "result": {
+              "duration": 66257300,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "clico em next para Select Price Option",
+            "match": {
+              "location": "EnterProductDataSteps.clico_em_next_para_Select_Price_Option()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 4880300,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "vejo que estou na aba \"Select Price Option\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Select Price Option",
+                  "offset": 23
+                }
+              ],
+              "location": "EnterVehicleDataSteps.vejo_que_estou_na_aba(String)"
+            },
+            "keyword": "Então "
+          },
+          {
+            "result": {
+              "duration": 113463500,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Seleciono o Price option \"Platinum\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Platinum",
+                  "offset": 26
+                }
+              ],
+              "location": "SelectPriceOptionSteps.seleciono_o_Price_option(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 114685800,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "clico em next para Send Quote",
+            "match": {
+              "location": "SelectPriceOptionSteps.clico_em_next_para_Send_Quote()"
+            },
+            "keyword": "Então "
+          },
+          {
+            "result": {
+              "duration": 4692900,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "vejo que estou na aba \"Send Quote\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Send Quote",
+                  "offset": 23
+                }
+              ],
+              "location": "EnterVehicleDataSteps.vejo_que_estou_na_aba(String)"
+            },
+            "keyword": "Quando "
+          }
+        ]
+      },
+      {
+        "line": 26,
+        "name": "Selecionar Price Option",
+        "description": "",
+        "id": "select-price-option;selecionar-price-option;;5",
+        "type": "scenario",
+        "keyword": "Esquema do Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 492388900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "que acesso o site tricentis",
+            "match": {
+              "location": "EnterVehicleDataSteps.que_acesso_o_site_tricentis()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 5097600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "quando estou na aba \"Enter Vehicle Data\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Enter Vehicle Data",
+                  "offset": 21
+                }
+              ],
+              "location": "EnterVehicleDataSteps.quando_estou_na_aba(String)"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 854564400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "preencho o formulário de Vehicle Data",
+            "match": {
+              "location": "EnterVehicleDataSteps.preencho_o_formulário_de_Vehicle_Data()"
+            },
+            "keyword": "Então "
+          },
+          {
+            "result": {
+              "duration": 121960100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "clico em next para Insurant Data",
+            "match": {
+              "location": "EnterVehicleDataSteps.clico_em_next()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 44213800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "vejo que estou na aba \"Enter Insurant Data\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Enter Insurant Data",
+                  "offset": 23
+                }
+              ],
+              "location": "EnterVehicleDataSteps.vejo_que_estou_na_aba(String)"
+            },
+            "keyword": "Então "
+          },
+          {
+            "result": {
+              "duration": 1240640200,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "preencho o formulário de Insurant Data",
+            "match": {
+              "location": "EnterInsurantDataSteps.preencho_o_formulário_de_Insurant_Data()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 83661100,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "clico em next para Product Data",
+            "match": {
+              "location": "EnterInsurantDataSteps.clico_em_next_para_Product_Data()"
+            },
+            "keyword": "Então "
+          },
+          {
+            "result": {
+              "duration": 3623100,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "vejo que estou na aba \"Enter Product Data\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Enter Product Data",
+                  "offset": 23
+                }
+              ],
+              "location": "EnterVehicleDataSteps.vejo_que_estou_na_aba(String)"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 855417900,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "preencho o formulário de Product Data",
+            "match": {
+              "location": "EnterProductDataSteps.preencho_o_formulário_de_Product_Data()"
+            },
+            "keyword": "Então "
+          },
+          {
+            "result": {
+              "duration": 76119000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "clico em next para Select Price Option",
+            "match": {
+              "location": "EnterProductDataSteps.clico_em_next_para_Select_Price_Option()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 11061500,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "vejo que estou na aba \"Select Price Option\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Select Price Option",
+                  "offset": 23
+                }
+              ],
+              "location": "EnterVehicleDataSteps.vejo_que_estou_na_aba(String)"
+            },
+            "keyword": "Então "
+          },
+          {
+            "result": {
+              "duration": 123502000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Seleciono o Price option \"Ultimate\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Ultimate",
+                  "offset": 26
+                }
+              ],
+              "location": "SelectPriceOptionSteps.seleciono_o_Price_option(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 675218800,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "clico em next para Send Quote",
+            "match": {
+              "location": "SelectPriceOptionSteps.clico_em_next_para_Send_Quote()"
+            },
+            "keyword": "Então "
+          },
+          {
+            "result": {
+              "duration": 4901800,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "vejo que estou na aba \"Send Quote\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Send Quote",
+                  "offset": 23
+                }
+              ],
+              "location": "EnterVehicleDataSteps.vejo_que_estou_na_aba(String)"
+            },
+            "keyword": "Quando "
+          }
+        ]
+      }
+    ],
+    "name": "Select Price Option",
+    "description": "",
+    "id": "select-price-option",
+    "keyword": "Funcionalidade",
+    "uri": "SelectPriceOption.feature"
+  },
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "#language: pt"
+      }
+    ],
+    "line": 4,
+    "elements": [
+      {
+        "line": 26,
+        "name": "Enviar Quote",
+        "description": "",
+        "id": "send-quote;enviar-quote;;2",
+        "type": "scenario",
+        "keyword": "Esquema do Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 502032400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "que acesso o site tricentis",
+            "match": {
+              "location": "EnterVehicleDataSteps.que_acesso_o_site_tricentis()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 7690800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "quando estou na aba \"Enter Vehicle Data\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Enter Vehicle Data",
+                  "offset": 21
+                }
+              ],
+              "location": "EnterVehicleDataSteps.quando_estou_na_aba(String)"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 931266500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "preencho o formulário de Vehicle Data",
+            "match": {
+              "location": "EnterVehicleDataSteps.preencho_o_formulário_de_Vehicle_Data()"
+            },
+            "keyword": "Então "
+          },
+          {
+            "result": {
+              "duration": 115330700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "clico em next para Insurant Data",
+            "match": {
+              "location": "EnterVehicleDataSteps.clico_em_next()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 6942900,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "vejo que estou na aba \"Enter Insurant Data\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Enter Insurant Data",
+                  "offset": 23
+                }
+              ],
+              "location": "EnterVehicleDataSteps.vejo_que_estou_na_aba(String)"
+            },
+            "keyword": "Então "
+          },
+          {
+            "result": {
+              "duration": 1257005700,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "preencho o formulário de Insurant Data",
+            "match": {
+              "location": "EnterInsurantDataSteps.preencho_o_formulário_de_Insurant_Data()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 81648500,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "clico em next para Product Data",
+            "match": {
+              "location": "EnterInsurantDataSteps.clico_em_next_para_Product_Data()"
+            },
+            "keyword": "Então "
+          },
+          {
+            "result": {
+              "duration": 4980700,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "vejo que estou na aba \"Enter Product Data\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Enter Product Data",
+                  "offset": 23
+                }
+              ],
+              "location": "EnterVehicleDataSteps.vejo_que_estou_na_aba(String)"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 635557600,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "preencho o formulário de Product Data",
+            "match": {
+              "location": "EnterProductDataSteps.preencho_o_formulário_de_Product_Data()"
+            },
+            "keyword": "Então "
+          },
+          {
+            "result": {
+              "duration": 82116700,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "clico em next para Select Price Option",
+            "match": {
+              "location": "EnterProductDataSteps.clico_em_next_para_Select_Price_Option()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 7245800,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "vejo que estou na aba \"Select Price Option\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Select Price Option",
+                  "offset": 23
+                }
+              ],
+              "location": "EnterVehicleDataSteps.vejo_que_estou_na_aba(String)"
+            },
+            "keyword": "Então "
+          },
+          {
+            "result": {
+              "duration": 120579500,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Seleciono o Price option \"Silver\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Silver",
+                  "offset": 26
+                }
+              ],
+              "location": "SelectPriceOptionSteps.seleciono_o_Price_option(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 667196900,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "clico em next para Send Quote",
+            "match": {
+              "location": "SelectPriceOptionSteps.clico_em_next_para_Send_Quote()"
+            },
+            "keyword": "Então "
+          },
+          {
+            "result": {
+              "duration": 4949900,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "vejo que estou na aba \"Send Quote\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Send Quote",
+                  "offset": 23
+                }
+              ],
+              "location": "EnterVehicleDataSteps.vejo_que_estou_na_aba(String)"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 558802800,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "preencho o formulário de Send Qoute",
+            "match": {
+              "location": "SendQuoteSteps.preencho_o_formulário_de_Send_Qoute()"
+            },
+            "keyword": "Então "
+          },
+          {
+            "result": {
+              "duration": 64980300,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "clico em send",
+            "match": {
+              "location": "SendQuoteSteps.clico_em_send()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 9172873600,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "vejo mensagem de sucesso \"Sending e-mail success!\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Sending e-mail success!",
+                  "offset": 26
+                }
+              ],
+              "location": "SendQuoteSteps.vejo_mensagem_de_sucesso(String)"
+            },
+            "keyword": "Então "
+          }
+        ]
+      },
+      {
+        "line": 27,
+        "name": "Enviar Quote",
+        "description": "",
+        "id": "send-quote;enviar-quote;;3",
+        "type": "scenario",
+        "keyword": "Esquema do Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 517657300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "que acesso o site tricentis",
+            "match": {
+              "location": "EnterVehicleDataSteps.que_acesso_o_site_tricentis()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 8109400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "quando estou na aba \"Enter Vehicle Data\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Enter Vehicle Data",
+                  "offset": 21
+                }
+              ],
+              "location": "EnterVehicleDataSteps.quando_estou_na_aba(String)"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 891418900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "preencho o formulário de Vehicle Data",
+            "match": {
+              "location": "EnterVehicleDataSteps.preencho_o_formulário_de_Vehicle_Data()"
+            },
+            "keyword": "Então "
+          },
+          {
+            "result": {
+              "duration": 107679000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "clico em next para Insurant Data",
+            "match": {
+              "location": "EnterVehicleDataSteps.clico_em_next()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 11310400,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "vejo que estou na aba \"Enter Insurant Data\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Enter Insurant Data",
+                  "offset": 23
+                }
+              ],
+              "location": "EnterVehicleDataSteps.vejo_que_estou_na_aba(String)"
+            },
+            "keyword": "Então "
+          },
+          {
+            "result": {
+              "duration": 1133752000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "preencho o formulário de Insurant Data",
+            "match": {
+              "location": "EnterInsurantDataSteps.preencho_o_formulário_de_Insurant_Data()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 76948100,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "clico em next para Product Data",
+            "match": {
+              "location": "EnterInsurantDataSteps.clico_em_next_para_Product_Data()"
+            },
+            "keyword": "Então "
+          },
+          {
+            "result": {
+              "duration": 4972900,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "vejo que estou na aba \"Enter Product Data\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Enter Product Data",
+                  "offset": 23
+                }
+              ],
+              "location": "EnterVehicleDataSteps.vejo_que_estou_na_aba(String)"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 627498900,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "preencho o formulário de Product Data",
+            "match": {
+              "location": "EnterProductDataSteps.preencho_o_formulário_de_Product_Data()"
+            },
+            "keyword": "Então "
+          },
+          {
+            "result": {
+              "duration": 79148400,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "clico em next para Select Price Option",
+            "match": {
+              "location": "EnterProductDataSteps.clico_em_next_para_Select_Price_Option()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 5245700,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "vejo que estou na aba \"Select Price Option\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Select Price Option",
+                  "offset": 23
+                }
+              ],
+              "location": "EnterVehicleDataSteps.vejo_que_estou_na_aba(String)"
+            },
+            "keyword": "Então "
+          },
+          {
+            "result": {
+              "duration": 96960800,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Seleciono o Price option \"Gold\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Gold",
+                  "offset": 26
+                }
+              ],
+              "location": "SelectPriceOptionSteps.seleciono_o_Price_option(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 111509800,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "clico em next para Send Quote",
+            "match": {
+              "location": "SelectPriceOptionSteps.clico_em_next_para_Send_Quote()"
+            },
+            "keyword": "Então "
+          },
+          {
+            "result": {
+              "duration": 6221100,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "vejo que estou na aba \"Send Quote\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Send Quote",
+                  "offset": 23
+                }
+              ],
+              "location": "EnterVehicleDataSteps.vejo_que_estou_na_aba(String)"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 619262000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "preencho o formulário de Send Qoute",
+            "match": {
+              "location": "SendQuoteSteps.preencho_o_formulário_de_Send_Qoute()"
+            },
+            "keyword": "Então "
+          },
+          {
+            "result": {
+              "duration": 70403500,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "clico em send",
+            "match": {
+              "location": "SendQuoteSteps.clico_em_send()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 9638375100,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "vejo mensagem de sucesso \"Sending e-mail success!\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Sending e-mail success!",
+                  "offset": 26
+                }
+              ],
+              "location": "SendQuoteSteps.vejo_mensagem_de_sucesso(String)"
+            },
+            "keyword": "Então "
+          }
+        ]
+      },
+      {
+        "line": 28,
+        "name": "Enviar Quote",
+        "description": "",
+        "id": "send-quote;enviar-quote;;4",
+        "type": "scenario",
+        "keyword": "Esquema do Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 478843800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "que acesso o site tricentis",
+            "match": {
+              "location": "EnterVehicleDataSteps.que_acesso_o_site_tricentis()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 6565100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "quando estou na aba \"Enter Vehicle Data\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Enter Vehicle Data",
+                  "offset": 21
+                }
+              ],
+              "location": "EnterVehicleDataSteps.quando_estou_na_aba(String)"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 859935700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "preencho o formulário de Vehicle Data",
+            "match": {
+              "location": "EnterVehicleDataSteps.preencho_o_formulário_de_Vehicle_Data()"
+            },
+            "keyword": "Então "
+          },
+          {
+            "result": {
+              "duration": 99509100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "clico em next para Insurant Data",
+            "match": {
+              "location": "EnterVehicleDataSteps.clico_em_next()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 8237700,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "vejo que estou na aba \"Enter Insurant Data\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Enter Insurant Data",
+                  "offset": 23
+                }
+              ],
+              "location": "EnterVehicleDataSteps.vejo_que_estou_na_aba(String)"
+            },
+            "keyword": "Então "
+          },
+          {
+            "result": {
+              "duration": 1143990400,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "preencho o formulário de Insurant Data",
+            "match": {
+              "location": "EnterInsurantDataSteps.preencho_o_formulário_de_Insurant_Data()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 93967400,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "clico em next para Product Data",
+            "match": {
+              "location": "EnterInsurantDataSteps.clico_em_next_para_Product_Data()"
+            },
+            "keyword": "Então "
+          },
+          {
+            "result": {
+              "duration": 5485100,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "vejo que estou na aba \"Enter Product Data\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Enter Product Data",
+                  "offset": 23
+                }
+              ],
+              "location": "EnterVehicleDataSteps.vejo_que_estou_na_aba(String)"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 712037000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "preencho o formulário de Product Data",
+            "match": {
+              "location": "EnterProductDataSteps.preencho_o_formulário_de_Product_Data()"
+            },
+            "keyword": "Então "
+          },
+          {
+            "result": {
+              "duration": 86135200,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "clico em next para Select Price Option",
+            "match": {
+              "location": "EnterProductDataSteps.clico_em_next_para_Select_Price_Option()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 4352300,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "vejo que estou na aba \"Select Price Option\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Select Price Option",
+                  "offset": 23
+                }
+              ],
+              "location": "EnterVehicleDataSteps.vejo_que_estou_na_aba(String)"
+            },
+            "keyword": "Então "
+          },
+          {
+            "result": {
+              "duration": 143916500,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Seleciono o Price option \"Platinum\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Platinum",
+                  "offset": 26
+                }
+              ],
+              "location": "SelectPriceOptionSteps.seleciono_o_Price_option(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 181213300,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "clico em next para Send Quote",
+            "match": {
+              "location": "SelectPriceOptionSteps.clico_em_next_para_Send_Quote()"
+            },
+            "keyword": "Então "
+          },
+          {
+            "result": {
+              "duration": 4696600,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "vejo que estou na aba \"Send Quote\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Send Quote",
+                  "offset": 23
+                }
+              ],
+              "location": "EnterVehicleDataSteps.vejo_que_estou_na_aba(String)"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 653995700,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "preencho o formulário de Send Qoute",
+            "match": {
+              "location": "SendQuoteSteps.preencho_o_formulário_de_Send_Qoute()"
+            },
+            "keyword": "Então "
+          },
+          {
+            "result": {
+              "duration": 64591300,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "clico em send",
+            "match": {
+              "location": "SendQuoteSteps.clico_em_send()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 9117540100,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "vejo mensagem de sucesso \"Sending e-mail success!\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Sending e-mail success!",
+                  "offset": 26
+                }
+              ],
+              "location": "SendQuoteSteps.vejo_mensagem_de_sucesso(String)"
+            },
+            "keyword": "Então "
+          }
+        ]
+      },
+      {
+        "line": 29,
+        "name": "Enviar Quote",
+        "description": "",
+        "id": "send-quote;enviar-quote;;5",
+        "type": "scenario",
+        "keyword": "Esquema do Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 628221400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "que acesso o site tricentis",
+            "match": {
+              "location": "EnterVehicleDataSteps.que_acesso_o_site_tricentis()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 6013000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "quando estou na aba \"Enter Vehicle Data\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Enter Vehicle Data",
+                  "offset": 21
+                }
+              ],
+              "location": "EnterVehicleDataSteps.quando_estou_na_aba(String)"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 918922900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "preencho o formulário de Vehicle Data",
+            "match": {
+              "location": "EnterVehicleDataSteps.preencho_o_formulário_de_Vehicle_Data()"
+            },
+            "keyword": "Então "
+          },
+          {
+            "result": {
+              "duration": 129652300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "clico em next para Insurant Data",
+            "match": {
+              "location": "EnterVehicleDataSteps.clico_em_next()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 5162300,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "vejo que estou na aba \"Enter Insurant Data\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Enter Insurant Data",
+                  "offset": 23
+                }
+              ],
+              "location": "EnterVehicleDataSteps.vejo_que_estou_na_aba(String)"
+            },
+            "keyword": "Então "
+          },
+          {
+            "result": {
+              "duration": 1289910300,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "preencho o formulário de Insurant Data",
+            "match": {
+              "location": "EnterInsurantDataSteps.preencho_o_formulário_de_Insurant_Data()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 84754600,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "clico em next para Product Data",
+            "match": {
+              "location": "EnterInsurantDataSteps.clico_em_next_para_Product_Data()"
+            },
+            "keyword": "Então "
+          },
+          {
+            "result": {
+              "duration": 4352400,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "vejo que estou na aba \"Enter Product Data\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Enter Product Data",
+                  "offset": 23
+                }
+              ],
+              "location": "EnterVehicleDataSteps.vejo_que_estou_na_aba(String)"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 659195900,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "preencho o formulário de Product Data",
+            "match": {
+              "location": "EnterProductDataSteps.preencho_o_formulário_de_Product_Data()"
+            },
+            "keyword": "Então "
+          },
+          {
+            "result": {
+              "duration": 66554800,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "clico em next para Select Price Option",
+            "match": {
+              "location": "EnterProductDataSteps.clico_em_next_para_Select_Price_Option()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 4223400,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "vejo que estou na aba \"Select Price Option\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Select Price Option",
+                  "offset": 23
+                }
+              ],
+              "location": "EnterVehicleDataSteps.vejo_que_estou_na_aba(String)"
+            },
+            "keyword": "Então "
+          },
+          {
+            "result": {
+              "duration": 116351700,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Seleciono o Price option \"Ultimate\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Ultimate",
+                  "offset": 26
+                }
+              ],
+              "location": "SelectPriceOptionSteps.seleciono_o_Price_option(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 700001300,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "clico em next para Send Quote",
+            "match": {
+              "location": "SelectPriceOptionSteps.clico_em_next_para_Send_Quote()"
+            },
+            "keyword": "Então "
+          },
+          {
+            "result": {
+              "duration": 3903300,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "vejo que estou na aba \"Send Quote\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Send Quote",
+                  "offset": 23
+                }
+              ],
+              "location": "EnterVehicleDataSteps.vejo_que_estou_na_aba(String)"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 547010700,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "preencho o formulário de Send Qoute",
+            "match": {
+              "location": "SendQuoteSteps.preencho_o_formulário_de_Send_Qoute()"
+            },
+            "keyword": "Então "
+          },
+          {
+            "result": {
+              "duration": 67699300,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "clico em send",
+            "match": {
+              "location": "SendQuoteSteps.clico_em_send()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 9148825400,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "vejo mensagem de sucesso \"Sending e-mail success!\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Sending e-mail success!",
+                  "offset": 26
+                }
+              ],
+              "location": "SendQuoteSteps.vejo_mensagem_de_sucesso(String)"
+            },
+            "keyword": "Então "
+          }
+        ]
+      }
+    ],
+    "name": "Send Quote",
+    "description": "",
+    "id": "send-quote",
+    "keyword": "Funcionalidade",
+    "uri": "SendQuote.feature"
+  }
+]
